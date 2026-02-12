@@ -11,7 +11,11 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
-    navbar: ['/', '/get-started'],
+    //navbar: ['/', '/get-started','about'],
+     navbar: [
+      { text: '首頁', link: '/' },
+      { text: '關於我們', link: '/about' }
+    ]
   }),
 
   bundler: viteBundler(),
