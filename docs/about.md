@@ -14,4 +14,4 @@ title: 關於我們
 
 ## 聯絡方式
 
-Email: example@email.com
+Email: bk@email.com
